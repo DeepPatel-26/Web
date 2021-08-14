@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="I">
+        <div class="cnt">
+            <img src="image/deep.jpg" 
+            alt="Deep Patel" class="ImgP">
+            <h1 class="text-upper "font-WB>Deep Rajnikant Patel</h1>
+            <h5>SQL developer, software engineer</h5>
+
+            <div class="Act flex-mid">
+                <a href="Resume/resume.pdf" class="buton buton-P rgt-1 buton-H">
+                    <ion-icon name="laptop" class="rgt-50"></ion-icon>
+                    <span>Resume</span>
+                </a>
+                <a href="#contact-me" class="buton buton-H">
+                    <ion-icon name="call-sharp" class="rgt-50"></ion-icon>
+                    <span>Contact me</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="Sgp text-cen alt-bgrd">
+        <div class="cnt">
+            <div class="R">
+                <div class="C-6">
+            <div class="Hdr">
+
+                <h2>About Me</h2>
+            </div>
+            <p class="Details"> Hello! My name is Deep Rajnikant Patel. I am 19 years old. I was born in Ahmedabad
+                which is a city in Gujarat state of India. I currently shifted to Canada for my further studies. I completed my high school in 2019 from the Amrit Jyoti School in Ahmedabad. 
+                I love computers and so I chose to follow my passion and become a programmer and so I am 
+                currently studying about computer programming and analysis at Seneca college in Canada.
+</p>
+            </br>
+            <div class="Date"><h4>Date: 13-08-2021</h4></div>
+                  
+            </div>
+            <div class="C-6">
+                <h2>Basic Information</h2>
+                <table class="Tab">
+                    <tr>
+                      <td>AGE</td>
+                      <td>:</td>
+                      <td>19</td>
+                    </tr>
+                    <tr>
+                      <td>EMAIL</td>
+                      <td>:</td>
+                      <td>drpatel44@myseneca.ca</td>
+                    </tr>
+                    <tr>
+                        <td>LANGUAGE</td>
+                        <td>:</td>
+                        <td>English, Gujarati, Hindi, French</td>
+                    </tr>
+                  </table>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="education Sgp text-cen">
+        <div class="cnt">
+            <div class="Hdr">
+                <h2>Education</h2>
+            </div>
+            <div class="Det">
+                <div class="Card">
+                    <div class="R" >
+                        <div class="CCol C-5" style="padding: 1em;"><h4>2019 (Completed)</h4>
+                        
+                        <h3>High School</h3>
+                        </div>
+                        <div class="C-7" style="padding: 1em;">
+                            <h3>grade 12th</h3>
+                            <h4>The H.B. Kapadiya New High School</h4>
+                        </br>
+                    </br></div>   
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="R">
+                        <div class="CCol C-5" style="padding: 1em;"><h4>2020 - 2022 (Expected)</h4>
+                        
+                        <h3>Advance Diploma</h3>
+                        </div>
+                        <div class="C-7" style="padding: 1em;">
+                            <h3>Diploma Certificate</h3>
+                            <h4>Seneca College of Applied Arts and Technology.</h4>
+                        </br>
+                    </br>                      
+                    </div>
+                </div>
+                        </br>
+                    </br>    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="contact Sgp text-cen alt-bgrd" id="contact-me">
+        <div class="cnt">
+            <div class="Hdr">
+                <h2>Contact Me</h2>
+            </div>
+            <form id="contact-form" action="https://httpbin.org/post " method="POST">
+                <div class="R">
+                    <div class="C-6 ">
+                        <div class="formG">
+                            <label for="">Name</label>
+                            <input type="text" name="name" placeholder="Enter your name here" class="form-C" required/>
+                        </div>
+                    </div>
+                    <div class="C-6">
+                        <div class="formG">
+                            <label for="">Email ID</label>
+                            <input type="email" name="email" placeholder="Enter your Email-Id here" class="form-C" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="R">
+                    <div class="C-7">
+                        <div class="formG">
+                            <label for="">Address</label>
+                            <textarea name="address" rows="5" class="form-C" placeholder="Enter your address here" required></textarea>
+                        </div>
+                    </div>
+                    <div class="C-5">
+                        <div class="formG">
+                            <label for="">City</label>
+                            <input name="city" type="text" placeholder="Enter your city here" class="form-C" list="cities" required/>
+                            <datalist id="cities">
+                                <option value="Toronto">
+                                <option value="Winnipeg">
+                                <option value="Vancouver">
+                                <option value="Ottawa">
+                                <option value="Montreal">
+                                <option value="Calgary">
+                                <option value="Edmonton">  
+                              </datalist>
+                        </div>
+                        <div class="formG">
+                            <label for="">Postal Code</label>
+                            <input name="postal-code" type="text" placeholder="Enter valid postal-code" class="form-C" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="R">
+                    <div class="C-6">
+                        <div class="formG bott-1">
+                            <label for="" class="rgt-2 bott-75 font-szs">Type of message ?</label>
+                            <div class="form-RG">
+                                <div class="rgt-2">
+                                    <input type="radio" name="type" id="type-1" value="question" checked required>
+                                    <label for="type-1">Question</label>
+                                </div>
+                                <div class="rgt-2">
+                                    <input type="radio" name="type" id="type-2" value="comment" required>
+                                    <label for="type-2">Comment</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="type" id="type-3" value="hiring" required>
+                                    <label for="type-3">Hiring</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="C-6" style="display: none;" id="rate-container">
+                        <div class="formG">
+                            <label for="">Hourly Rate</label>
+                            <input name="rate" type="number" placeholder="100" class="form-C" min="0" id="rate-input"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="R">
+                    <div class="C-12">
+                        <div class="formG">
+                            <label for="">Message</label>
+                            <textarea name="message" rows="4" class="form-C" placeholder="Enter your Message here" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-cen Top-1">
+                    <button type="submit" class="buton buton-S buton-P buton-C mgn-auto font-WSB">
+                        <ion-icon name="checkmark-done-circle-sharp" class="rgt-50"></ion-icon>
+                        <span>Submit</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script image src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="ui.js"></script>
+    <script src="validation.js"></script>
+    <a href="Honesty.html">To Honesty Page</a>
+</body>
+</html>
